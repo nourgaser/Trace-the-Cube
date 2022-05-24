@@ -13,7 +13,7 @@ void common()
 
 int currentLevel = 0;
 int highscore = 0;
-int alltime_highscore = 0;
+int alltime_highscore = getAlltimeHighscore();
 string alltime_highscore_username = getAlltimeHighscoreUsername();
 
 void drawGameSceneBottomMenu()
