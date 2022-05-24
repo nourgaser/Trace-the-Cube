@@ -2,3 +2,5 @@ src copy
 src copy 2
 savefile.save
 .vscode
+*.out
+*.exe
