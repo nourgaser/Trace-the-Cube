@@ -4,8 +4,8 @@
 
 #define REVEAL_SPEED_DEFAULT 0.02
 #define ROTATION_SPEED_DEFAULT 2
-#define WINDOW_WIDTH 1500
-#define WINDOW_HEIGHT 1500
+#define WINDOW_WIDTH 800
+#define WINDOW_HEIGHT 800
 #define GAME_FONT GLUT_BITMAP_TIMES_ROMAN_24
 #define SAVEFILE "savefile.save"
 const char ENTER_KEY = (char)13;

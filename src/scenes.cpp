@@ -63,11 +63,11 @@ void mainMenuScene()
     common();
 
     glColor3f(1, 1, 1);
-
-    drawText(0, 1, "Start game\t(p)");
-    drawText(0, .5, "View highscore\t(h)");
-    drawText(0, 0, "Set your username\t(u)");
-    drawText(0, -0.5, "Quit\t(q)");
+    glLoadIdentity();
+    drawText(-0.32, 1, "Start game\t(p)");
+    drawText(-0.45, .5, "View highscore\t(h)");
+    drawText(-0.5, 0, "Set your username\t(u)");
+    drawText(-0.2, -0.5, "Quit\t(q)");
 
     glutSwapBuffers();
 }
@@ -75,9 +75,9 @@ void mainMenuScene()
 void highscoresScene()
 {
     common();
-    drawText(0, 1, "This legendary player was able to reach level " + to_string(getAlltimeHighscore()) + "!");
-    drawText(0, .5, getAlltimeHighscoreUsername());
-    drawText(0, 0, "Press anykey to go back.");
+    drawText(-1.2, 1, "This legendary player was able to reach level " + to_string(getAlltimeHighscore()) + "!");
+    drawText(-0.2, .5, getAlltimeHighscoreUsername());
+    drawText(-.6, 0, "Press anykey to go back.");
 
     glutSwapBuffers();
 }
@@ -86,10 +86,9 @@ string USERNAME = "";
 void usernameScene()
 {
     common();
-    drawText(0, 1.5, "Enter your name!");
+    drawText(-0.43, 1, "Enter your name!");
     if (USERNAME.length())
-        drawText(0, 0, USERNAME);
-    drawText(0, -1.5, "Press enter when you're finished.");
-
+        drawText(-0.2, 0, USERNAME);
+    drawText(-0.8 ,-1, "Press enter when you're finished.");
     glutSwapBuffers();
 }
