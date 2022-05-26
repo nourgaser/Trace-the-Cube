@@ -1,5 +1,6 @@
 # Trace the Cube
 A simple OpenGL video game. Project submission for CS402 (Computer Graphics) @ MUST University.
+![demo image](docs/img/demo.png)
 
 ## Team Members
 | Name        | ID           |
