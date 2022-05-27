@@ -1,5 +1,9 @@
 # Trace the Cube
 A simple OpenGL video game. Project submission for CS402 (Computer Graphics) @ MUST University.
+![demo image](docs/img/demo.png)
+
+# How to play
+You're shown the position of a small cube that hides under of of the large cubes at the beginning of the level, then they spin; keep track of where the small cube is to advance to the next level. Simple and sweet. (Levels get progressively harder, try to keep your name on the leaderboard). 
 
 ## Team Members
 | Name        | ID           |
